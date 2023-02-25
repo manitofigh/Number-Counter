@@ -57,7 +57,7 @@ button{
 }
 
 .decrease:hover{
-  background-color: #C75146;
+  background-color: #CB4033;
 }
 
 button:active {
@@ -70,7 +70,7 @@ button:active {
 }
 
 .decrease:active{
-  background-color: #D57A72;
+  background-color: #EC3929;
 }
 
 @media (min-width: 768px) {
