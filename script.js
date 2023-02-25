@@ -1,5 +1,5 @@
 var h1State = 0;
-var number = 9;
+var number = 0;
 
 $(".add").click(function()
 {
