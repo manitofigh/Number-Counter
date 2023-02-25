@@ -52,17 +52,25 @@ button{
   background-color: #fff;
 } */
 
-.decrease:hover{
-  background-color: #C75146;
-}
-
 .add:hover{
   background-color: #1B998B;
+}
+
+.decrease:hover{
+  background-color: #C75146;
 }
 
 button:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
+}
+
+.add:active{
+  background-color: #2FDAC6 ;
+}
+
+.decrease:active{
+  background-color: #D57A72;
 }
 
 @media (min-width: 768px) {
