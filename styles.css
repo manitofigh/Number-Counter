@@ -26,6 +26,7 @@ h2{
 
 h4{
   font-family: 'Inter', sans-serif;
+  font-size: 1rem;
   margin-bottom: 9rem;
 }
 
@@ -83,9 +84,15 @@ button:active {
   background-color: #EC3929;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 800px) {
   .button {
     min-width: 120px;
     padding: 0 25px;
+  }
+  h4{
+    font-size: 0.8rem
+  }
+  h1{
+    font-size: 55px;
   }
 }
