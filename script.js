@@ -1,4 +1,3 @@
-var h1State = 0;
 var number = 0;
 
 function decreaseNumber(){
