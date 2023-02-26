@@ -51,6 +51,18 @@ button{
     touch-action: manipulation;
 }
 
+.reset{
+  position: relative;
+  left: 2px;
+  background-color: white;
+}
+.reset:hover{
+  background-color: tomato;
+}
+.reset:active{
+  background-color: red;
+}
+
 /* button:hover {
   background-color: #fff;
 } */

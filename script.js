@@ -1,11 +1,11 @@
-var number = 0;
+var counter = 0;
 
 function decreaseNumber(){
-  $("h2").text(number -= 1);
+  $("h2").text(counter -= 1);
 }
 
 function increaseNumber(){
-  $("h2").text(number += 1);
+  $("h2").text(counter += 1);
 }
 
 $(".add").click(function()
@@ -15,6 +15,11 @@ $(".add").click(function()
 
 $(".decrease").click(function(){
     decreaseNumber();
+});
+
+$(".reset").click(function(){
+    counter = 0; 
+    $("h2").text(counter);
 });
 
 $(document).keydown(function(event){
