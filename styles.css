@@ -58,6 +58,7 @@ button{
 }
 .reset:hover{
   background-color: tomato;
+  transition-duration: 220ms;
 }
 .reset:active{
   background-color: red;
@@ -69,10 +70,12 @@ button{
 
 .add:hover{
   background-color: #1B998B;
+  transition-duration: 220ms;
 }
 
 .decrease:hover{
   background-color: #CB4033;
+  transition-duration: 220ms;
 }
 
 button:active {
