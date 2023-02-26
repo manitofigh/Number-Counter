@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap'); /* Gloock */
 
 
-body, h2, h3, button{
-    font-family: 'Inter', sans-serif;
-}
 body{
     background-color: #E4FDE1;
     align-items: center;
@@ -16,7 +13,7 @@ h1{
     font-family: 'Gloock', serif;
     color: #243B4A;
     font-size: 60px;
-    margin: 3rem auto 10rem;
+    margin: 3rem auto 1rem;
 }
 
 h2{
@@ -25,6 +22,11 @@ h2{
     font-weight: 300;
     font-size: 70px;
     margin-top: 1rem;
+}
+
+h4{
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 9rem;
 }
 
 button{
@@ -65,8 +67,16 @@ button:active {
   transform: translate(2px, 2px);
 }
 
-.add:active{
+.addActive{
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
   background-color: #2FDAC6 ;
+}
+
+.decreaseActive{
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+  background-color: #CB4033;
 }
 
 .decrease:active{
