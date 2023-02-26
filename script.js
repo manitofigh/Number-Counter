@@ -23,7 +23,7 @@ $(".reset").click(function(){
 });
 
 $(document).keydown(function(event){
-    var keyPressed = event.which; //returns clicked key ASCII code
+    var keyPressed = event.which; //returns the clicked key's ASCII code
     // console.log(keyPressed);
     if (keyPressed === 87 || keyPressed === 68 || keyPressed === 38 || keyPressed === 39){ // in order: "w", "s", "↑", or "→" key
       increaseNumber();
